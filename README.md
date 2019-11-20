@@ -4,7 +4,7 @@
 ## Html, CSS and Javascript working together to create a fun and interactive animation.
 This repository contains Javascript code that draws a family of lines and the envelope given by a parabolic curve.  
 
-<img src="stringartpage.png" alt="alt text" width="250" height="250">
+<img src="stringartpage.png" alt="alt text" width="400" height="700">
 
 A user can choose the max value on the x-axis, y-axis, the number of lines to draw and how fast they want to see the animation run!  
 
