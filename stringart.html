@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8"/>
+    <title>String Art</title>
+	<link rel="stylesheet" href="stylestringart.css">
+</head>
+<body id = "test">
+
+
+
+<div id="canvas-container">	
+	<h1> String Art </h1>
+	<p id=info> The fascinating world of string art shows how you can create beautiful curves with lines!  In this animation you get to choose the max point on the x and y-axes, the number of lines to plot and the speed of the plotting.  With these parameters what curve do you get each time? Surprisingly, you get a parabola!  This parabola is called the envelope of the given family of lines.  </p>  
+<canvas id="myCanvas" width="1000" height="1000">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+</div>
+
+<div class="slidecontainer">
+	<br>
+<p id = "xaxis">x-axis: <span id="demoX"></span></p> 
+<input type="range" min="10" max="90" value="50" class="slider" id="myXRange" step="10"/>
+<br>
+<p id = "yaxis">y-axis: <span id="demoY"></span></p> 
+<input type="range" min="10" max="90" value="50" class="slider" id="myYRange" step="10"/>
+<br>
+<p id = "NumLines"> Number of lines: <span id="demolines"></span></p>
+<input type="range" min="10" max="150" value="50" class="slider" id="numlines" step="10"/>
+<p id = "Speed"> Speed: <span id="demospeed"></span></p>
+<input type="range" min="10" max="150" value="20" class="slider" id="speed" step="10"/>
+</div> 
+
+<div class="buttonstuff">
+	<br>
+    <button name="button" id="button" type="button" >Put on the replay!!</button>
+<br><br>
+</div>
+
+<script src="scriptstringart.js"> </script>
+
+</body>
+
+   
+</html>
+

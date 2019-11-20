@@ -1,0 +1,117 @@
+
+#canvas-container {
+   width: 100%;
+   text-align:center;
+   margin: auto;
+   background: #e6ffff;
+}
+
+canvas {
+   display: inline;
+}
+
+p {
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+  font-size: 25px; 
+  word-wrap: break-word;
+
+}
+
+h1 { 
+
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+  font-size: 50px;
+  background:#668cff;
+  color:#ffffff;
+ }
+
+.slidecontainer {
+  width: 100%; /* Width of the outside container */
+  background:#668cff;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; /* Full-width */
+  height: 25px; /* Specified height */
+  background: #ffffff; /* white background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+.slider::-moz-range-thumb {
+  width: 25px; /* Set a specific slider handle width */
+  height: 25px; /* Slider handle height */
+  background: #4CAF50; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+}
+
+#xaxis{
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+  font-size: 25px; 
+  text-align:center;
+  color:#ffffff;
+}
+#yaxis{
+  text-align:center;
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+  font-size: 25px; 
+  color:#ffffff;
+}
+
+
+#NumLines{
+  text-align:center;
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+  font-size: 25px; 
+  color:#ffffff;
+}
+
+#Speed{
+  text-align:center;
+  font-family: Candara,Calibri,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+  font-size: 25px; 
+  color:#ffffff;
+}
+
+
+.buttonstuff {
+  width: 100%;
+  text-align:center;
+  margin: auto;
+  background:#668cff;
+
+}
+
+button{
+  width: 200px;
+  height: 50px;
+  background-color:#4CAF50;
+  font: 1.5em Times, Times New Roman, serif;
+  color:#ffffff;
+}
+
+button:hover{background-color:orange;}
+
+
+
+
