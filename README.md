@@ -1,5 +1,6 @@
 # String Art Animation Webpage
 
+<http://www.math.uvic.ca/~buricd/stringart.html>
 
 ## Html, CSS and Javascript working together to create a fun and interactive animation.
 This repository contains Javascript code that draws a family of lines and the envelope given by a parabolic curve.  
